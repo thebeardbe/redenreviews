@@ -1,17 +1,17 @@
 # Reden Reviews
 
-This is the source code for the Reden.reviews platform that will serve as a gui for the reviews that will be saved on the blockchain of [Redencoin](https://reden.reviews) of which the source code can be found on the [Redencore github](https://github.com/RedenCore/Reden)
+This is the source code for the Reden.reviews platform that will serve as a gui for the reviews that will be saved on the blockchain of [Redencoin](https://reden.reviews). ( Source code over at [Redencore github](https://github.com/RedenCore/Reden) )
 
-This project gets live developed on my [twitch.tv stream](https://twitch.tv/thebeardbe). 
+This project gets live developed on my [twitch.tv/thebeardbe stream](https://twitch.tv/thebeardbe). 
 
-The goal of the project is to have users submit reviews, get them processed and uploaded to the blockchain that will serve as the ultimate database. 
-The frontend will be use a local database that will get synced on fixed intervals with the blockchain, where the blockchain will always be correct version and overwrite the existing low latency local database. Similar in a way that an explorer for a blockchain works.
+The goal of the project is to have users submit reviews, get them processed and uploaded to the blockchain, the blockchain will serve as the ultimate database. 
+The frontend will be using a local database that will get synced on fixed intervals with the blockchain. Because of it's nature the blockchain will always be correct version and overwrite the existing low latency local database. Similar in a way that an explorer for a blockchain works.
 
 The submissions of reviews will be uploaded in a transaction on the blockchain. (TBD how to achieve this reliably)
 
 ## Stage 1 
 
-Have a form that will accept only review requests, it will ask for some general info on the project, including but not limited to algorithm, type, links, ....
+Have a form that will accept only review requests, it will ask for some general info on the project, including but not limited to: algorithm, type, links, ....
 
 In a first stage this data will be saved in a local database and shown on the website as a project with some specs, I will select from this list to review on the twitch streams and update the website manually.
 
